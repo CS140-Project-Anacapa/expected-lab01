@@ -26,7 +26,7 @@
         }
       ],
       "make_output": {
-        "make_output": "g++ -g testcase1.cpp student1.cpp -o testable1\n",
+        "make_output": "clang++ testable1.cpp -o testable1\n",
         "exit_code": 0
       }
     },
@@ -56,7 +56,7 @@
         }
       ],
       "make_output": {
-        "make_output": "g++ -g testcase2.cpp student2.cpp -o testable2\n",
+        "make_output": "clang++ testable2.cpp -o testable2\n",
         "exit_code": 0
       }
     }
